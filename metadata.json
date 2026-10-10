@@ -1,0 +1,6 @@
+{
+  "name": "NX Media - NexisparkX Group Division",
+  "description": "Official creative content, branding, and digital media engine powering the NexisparkX Group brand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
