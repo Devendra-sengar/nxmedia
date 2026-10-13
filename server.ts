@@ -365,8 +365,8 @@ async function startServer() {
   const isProd = true;
 
   if (!isProd) {
-    const viteModule = await (eval(`import('vite')`) as Promise<typeof import('vite')>);
-    const vite = await viteModule.createViteServer({
+ 
+    const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
     });
