@@ -359,7 +359,7 @@ Our team will communicate with you shortly.
     });
   }
 });
-
+console.log("process .env",process.env);
 // Development vs Production serving
 async function startServer() {
   const isProd = process.env.NODE_ENV === 'production';
